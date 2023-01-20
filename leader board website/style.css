@@ -1,0 +1,85 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+/* main Part*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* top-player */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F3F1FF; 
+}
+
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+}
+.top-player{
+    margin-bottom: 30px;
+}
+.topPlayers-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* top blogs */
+.blogss{
+    display: grid;
+     grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+    
+}
+
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+}
+
+/* Top Courses*/
+.courses .course-banner img{
+    width: 224px;
+    height: 104px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<header>
+    <h1 class="text-6xl text-center mt-16">Let's give some <span class="text-red-500 font-semibold">Money</span></h1>
+    
+    
+</header>
+
+<main>
+    <section class="mt-8 ">
+        <div class="grid grid-cols-4 gap-4 w-3/4 p-8 mx-auto flex justify-center text-white mr-8">
+            <div class="bg-orange-400 p-8 rounded">
+                <h3 class="text-2xl">Deposit</h3>
+                <h2  class="text-4xl">$<span id="Depositid">000</span></h2>
+            </div>
+            <div class="bg-lime-500 p-8 rounded">
+                <h3 class="text-2xl">Withdraw</h3>
+                <h2 class="text-4xl">$<span id="balancewd">000</span></h2>
+            </div>
+            <div class="bg-red-400 p-8 rounded">
+                <h3 class="text-2xl">Balance</h3>
+                <h2 class="text-4xl">$<span id="balance-id">1200</span></h2>
+            </div>
+        </div>
+    </section>
+    <section class="flex justify-center">
+        <div class="grid grid-cols-2 w-3/4 gap-4">
+            <div class="bg-cyan-400 p-8 m-8">
+                <h1 class="text-3xl">Please deposit</h1>
+                <input id="Deposit-amount"  class="border block mb-4 rounded bg-amber-100 w-3/4 px-2 text-black mt-2 py-1" type="text" placeholder="Deposit your amount $00">
+                <button id="Deposit-submit" class="bg-pink-900 px-4 rounded text-white font-semibold py-2 ">Deposit Submit</button>
+            
+            </div>
+            <div class="bg-purple-400 p-8 m-8">
+                <h1 class="text-3xl">Please Withdraw</h1>
+                <input id="withdraw-amount"  class="border block mb-4 rounded bg-amber-100 w-3/4 px-2 text-black py-1 mt-2" type="text" placeholder="Withdraw your amount $00">
+                <button id="withdraw-submit" class="bg-pink-900 px-4 rounded text-white font-semibold py-2 ">Withdrw Submit</button>
+            
+            </div>
+           
+
+
+
+
+        </div>
+    </section>
+</main>
+<script src="java/deposit/dp.js"></script>
+
+     
+</body>
+</html>

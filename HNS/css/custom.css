@@ -1,0 +1,140 @@
+/* Change Brand Font */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav {
+  margin-left: 250px;
+}
+
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+  color: #F0AAB1;
+}
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.font-italic {
+  font-size: 24px;
+}
+
+a {
+  color: black;
+}
+
+.active {
+  color: white;
+  background-color: #17A2B8;
+}
+
+a:hover {
+  color: #f26571;
+}
+
+/* Change Footer Icon Link Color */
+/* .fi-color {
+  color: #DC3545;
+}
+
+fi-color:hover {
+  color: #E994A2;
+} */
+.fa-2x {
+  color: #17A2B8;
+}
+
+.fa-2x:hover {
+  color: aqua;
+
+  font-size: 30px;
+}
+
+.linkDesign a {
+  font-size: 18px;
+  color: rgb(17, 188, 194);
+}
+
+.linkDesign a:hover {
+  font-size: 17px;
+  color: aqua;
+  text-decoration: none;
+}
+
+.adminDesign {
+  color: #17A2B8;
+}
+
+.adminDesign:hover {
+  color: aqua;
+  text-decoration: none;
+
+
+}
+
+
+/* Plus Button for adding New Users Bottom Right */
+.box {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 30px;
+}
+
+/* for services section  */
+.imgSizing {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  /* border: rosybrown solid 2px; */
+}
+
+.cimg {
+  color: rgb(11, 186, 199);
+}
+
+.aboutStyle {
+  font-size: 18px;
+  color: rgb(18, 155, 148);
+
+}
+
+/* Setting Margin for Welcome to HNS */
+.mainHeading {
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* review  */
+
+.reviewColor {
+  color: rgb(212, 182, 10);
+}
+
+/* Setting Margin and Alignment for Welcome to OSM Mobile View */
+@media only screen and (max-width: 600px) {
+  .myclass {
+    margin-top: 350px;
+    text-align: center;
+  }
+}

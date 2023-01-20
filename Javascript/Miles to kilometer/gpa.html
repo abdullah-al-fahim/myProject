@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+      
+      <section id="Prnt">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate inventore culpa aperiam sit quam! Nostrum nemo corporis doloremque ut molestias.
+        </p>
+        <textarea name="" id="new-comment" cols="60" rows="10"></textarea>
+        <br>
+        <button id="submit-comment">post</button>
+      </section>
+
+      <script>
+        document.getElementById('submit-comment').addEventListener('click', function(){
+          const commentBox =document.getElementById('new-comment');
+          // const usercomment = commentBox.value;
+
+          const newComment = document.createElement('p');
+          newComment.innerText = commentBox.value;
+
+          const Prnts = document.getElementById('Prnt');
+          Prnts.appendChild(newComment);
+          
+
+          commentBox.value = '';
+        })
+        
+      </script>
+    
+</body>
+</html>

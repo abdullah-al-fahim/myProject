@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 100%;
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    justify-self: space-between;
+    font-size: 16 px;
+    padding: 0 2em;
+    gap: 3em;
+}
+.card{
+    width: 100%;
+    position: relative;
+    background-color: rgb(155, 203, 228);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2.5em 0;
+    box-shadow: 0 20px 35px rgba(0,0, 0,0.1);
+}
+h3{
+    width: 70%;
+    padding: 0.6em 0;
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 5px 35px 35px 5px;
+    position: relative;
+    margin-left: -0.6em;
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: .15em;
+}
+h1{
+    font-size: 2em;
+    margin: 0.8em 0;
+    color: #07001f;
+}
+.card ul{
+    list-style: none;
+}
+li{
+    position: relative;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 0.4em;
+    color: #000742;
+}
+ul li:not(:last-child){
+      margin-bottom: 1.8em; 
+      border-bottom: 2px solid red; 
+}
+button{
+    font-size: 1.2em;
+    margin-top: 2.5em;
+    width: 88%;
+    padding: 1em 0;
+    background-color: rgb(61, 22, 35);
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.basic h3,
+.basic button {
+    background: linear-gradient(45deg #ffe01c,#f8a71b);
+}
+.standard h3,
+.standard button {
+    background: linear-gradient(45deg #ffe01c,#f8a71b);
+}
+.premium h3,
+.premium button {
+    background: linear-gradient(45deg #ffe01c,#f8a71b);
+}
+@media screen {
+    
+}

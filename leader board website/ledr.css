@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed:wght@700&display=swap');
+
+body{font-family: 'Poppins', sans-serif;
+    background-color: rgb(137, 221, 221);
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: rgb(225, 202, 202);
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.section-title{
+    font-size: 24px;
+    margin: 30px;
+    color: brown;
+    
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+hr{
+    border: 1px crimson solid;
+}
+
+.blog .thumbanil img{
+    width: 177px;
+    height: 117px;
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left:16px;
+}
+.blog-title{
+    font-size: 20px;
+
+
+}
+.blog-author{
+    font-size: 16px;
+    color: blueviolet;
+}
+.blog-info .blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
